@@ -27,5 +27,8 @@ module.exports = {
     '!src/router/index.js',
     '!**/node_modules/**'
   ],
-  "testURL": "http://localhost/"
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  }
 }
