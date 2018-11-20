@@ -2,6 +2,10 @@
   "name": "vuetest",
   "version": "1.0.0",
   "description": "A Vue.js project",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   "author": "orangeWU818wucheng <orangewu818@163.com>",
   "private": true,
   "scripts": {
@@ -67,10 +71,6 @@
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
-  },
-  "jest": {
-    "verbose": true,
-    "testURL": "http://localhost/"
   },
   "browserslist": [
     "> 1%",
