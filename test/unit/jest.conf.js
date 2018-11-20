@@ -9,6 +9,10 @@ module.exports = {
     'json',
     'vue'
   ],
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1'
   },
