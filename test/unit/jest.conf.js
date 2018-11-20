@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  rootDir: path.resolve(__dirname, '../../'),
+  // rootDir: path.resolve(__dirname, '../../'),
   verbose: true,
   testURL: "http://localhost/",
   moduleFileExtensions: [
