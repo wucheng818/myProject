@@ -68,6 +68,10 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
